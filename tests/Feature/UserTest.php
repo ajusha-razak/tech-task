@@ -19,9 +19,9 @@ class UserTest extends TestCase
     public function test_the_user_create_returns_a_successful_response()
     {
         $response = $this->postJson('/users/store', [
-            'name' => 'Ajusha',
-            'surname' => 'Razak',
-            'email' => 'ajusha121@gmail.com',
+            'name' => 'New',
+            'surname' => 'User',
+            'email' => 'newuser@gmail.com',
             'country' => 1,
             'phone' => '88997766',
             'password' => '123123',
